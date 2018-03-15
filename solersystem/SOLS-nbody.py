@@ -4,7 +4,7 @@
 # Project               : ClusterFiles
 # File Name             : SOLS-nbody
 # Last Modified by      : swc21
-# Last Modified time    : 2018-03-14 10:57:43
+# Last Modified time    : 2018-03-14 12:05:10
 # ====================================================================
 # 
 # ====================================================================
@@ -17,9 +17,10 @@
 # ====================================================================
 #
 #<Begin: Imports>
-from mpi4py import MPI
 import numpy as np
 import sys
+
+from mpi4py import MPI
 #<End: Imports>
 #<Begin: Command Line Args>
 TIMESTEPS = 100

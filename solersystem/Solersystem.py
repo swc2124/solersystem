@@ -8,8 +8,9 @@
 # ====================================================================
 #
 # Filename: SolerSystem.py
-from datetime import datetime
 import numpy as np
+
+from datetime import datetime
 
 
 def pps(data):
